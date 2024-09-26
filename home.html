@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Template</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #45a049;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .home-section {
+            background-image: url('https://via.placeholder.com/1200x400'); /* Placeholder for hero image */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .home-section h2 {
+            font-size: 3em;
+            font-weight: bold;
+        }
+        .home-section p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .btn-primary {
+            background-color: #4CAF50;
+            padding: 10px 20px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 15px;
+        }
+        .btn-primary:hover {
+            background-color: #45a049;
+        }
+        .features {
+            display: flex;
+            justify-content: space-between;
+            margin: 40px 0;
+        }
+        .feature-box {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+        }
+        .feature-box h3 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+        .testimonial-section {
+            background-color: #f9f9f9;
+            padding: 40px;
+            text-align: center;
+        }
+        .testimonial {
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        .testimonial h4 {
+            margin-top: 10px;
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HOME</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="home-section">
+        <div>
+            <h2>Welcome to Our Website</h2>
+            <p>Empowering businesses and individuals through modern technology solutions.</p>
+            <button class="btn-primary">Get Started</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="features">
+            <div class="feature-box">
+                <h3>Feature 1</h3>
+                <p>Our first amazing feature helps you save time and effort with automation.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Feature 2</h3>
+                <p>We offer cutting-edge solutions tailored to your business needs.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Feature 3</h3>
+                <p>Our support is here 24/7 to ensure your success at every step.</p>
+            </div>
+        </section>
+
+        <section class="testimonial-section">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial">
+                <p>"This company has transformed the way we work, making our processes faster and smoother."</p>
+                <h4>- John Doe, CEO</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Highly recommend their services! Professional, reliable, and always ready to help."</p>
+                <h4>- Jane Smith, Business Owner</h4>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Template. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
